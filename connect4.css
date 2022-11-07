@@ -6,6 +6,16 @@
   border: solid 1px #666;
 }
 
+#gameHud {
+  text-align: center;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* pieces are div within game table cells: draw as colored circles */
 
 .piece {
@@ -35,4 +45,14 @@
 
 #column-top td:hover {
   background-color: gold;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: darkslategray;
 }
